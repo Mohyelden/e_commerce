@@ -1,0 +1,10 @@
+<section>
+    <div class="row mt-5 g-3">
+        <div class="col-md-4 " *ngFor="let item of categories">
+            <div class="shadow border">
+                <img [src]="item.image" class="w-100" height="350px" alt="">
+                <h3 class="text-center">{{item.name}}</h3>
+            </div>
+        </div>
+    </div>
+</section>
